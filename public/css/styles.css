@@ -1,0 +1,339 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+section.header {
+    border-bottom: 1px solid;
+    padding: 12px 0;
+    position: fixed;
+    width: 100%;
+    border-color: #eaebf1;
+    background-color: #fff;
+    z-index: 100;
+    height: 64px;
+}
+
+.nav-left-list {
+    padding-top: 7px;
+    border-left: 1px solid #f1efef;
+}
+
+.login {
+    padding-top: 7px;
+    font-size: 14px;
+    text-align: right;
+    font-weight: 600;
+    text-align: right;
+    border-left: 1px solid #f1efef;
+}
+
+.login a {
+    color: #515151;
+}
+
+.nav-left-list li{
+    float: left;
+    padding-left: 20px;
+    list-style-type: none;
+    display: contents;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-left-list li a{
+    color: #515151;
+}
+
+.social-left-list li {
+    float: right;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.nav-bar-desktop {
+    max-width: 1383px;
+}
+
+.first-set
+{
+    width: 50%;
+}
+
+.second-set
+{
+    width: 50%
+}
+
+.banner
+{
+    background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../img/lbbanner.jpg') center center no-repeat;
+    background-size: cover;
+    height: 580px;
+    width: 100%;
+    position: relative;
+    top: 64px;
+}
+
+.leaders-row {
+    padding-top: 100px;
+}
+
+.nav-bar-mobile{
+    display: none;
+}
+
+.leaders-section {
+    padding-top: 150px;
+    padding-bottom: 120px;
+}
+
+.nav-logo-desktop {
+    text-align: right;
+}
+
+.coin-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+@media( max-width: 1366px )
+{
+    .banner
+    {
+        background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../img/lbbanner720p.jpg') center center no-repeat;
+        background-size: cover;
+        height: 580px;
+        width: 100%;
+        position: relative;
+        top: 64px;
+    }
+
+}
+
+@media( max-width: 900px )
+{
+
+    .login {
+        border: none;
+        text-align: left;
+    }
+
+    section.header {
+        background: white;
+        -webkit-transform: translateZ(0);
+    }
+
+    .leaders-row {
+        padding-top: unset;
+    }
+
+    .leader-single {
+        padding-top: 50px;
+    }
+
+    .leaders-section {
+        padding-top: 65px;
+    }
+
+}
+
+@media ( max-width: 1030px ) {
+    .nav-left-list a {
+        font-size: 10px;
+    }
+
+    .leader-title {
+        font-size: 11px;
+    }
+
+    .social-icons {
+        width: 20px;
+        height: 20px;
+    }
+
+    .login {
+        font-size: 10px;
+        padding-top: 13px;
+    }
+
+    .social-left-list {
+        padding-top: 7px;
+    }
+
+    .nav-logo-desktop {
+        padding-right: unset !important;
+    }
+
+    .leader-images {
+        width: 95px;
+        height: 95px;
+    }
+
+    .banner
+    {
+        background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../img/ll.png') center center no-repeat;
+        background-size: cover;
+        height: 360px;
+        width: 100%;
+        position: relative;
+        top: 64px;
+    }
+}
+
+@media ( max-width: 690px ) {
+
+    .banner
+    {
+        background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../img/lbbannermobile.png') center center no-repeat;
+        background-size: cover;
+        height: 360px;
+        width: 100%;
+        position: relative;
+        top: 64px;
+    }
+
+    .nav-bar-desktop {
+        display: none;
+    }
+
+    .nav-bar-mobile{
+        display: block;
+    }
+
+    .leader-title {
+        font-size: 18px ;
+    }
+
+    .login {
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+.banner .container
+{
+    padding-top: 64px;
+}
+
+.coin-icons {
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.markets {
+    margin: 0 auto;
+}
+
+.leader-title {
+    font-weight: 700;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .mobile-menu-header {
+    width: 100%;
+    height: 57px;
+    background: #fff;
+  }
+
+  .menu-title {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #A8A8A8;
+    padding: 20px 0 0 31px;
+  }
+
+  .mobile-menu-body ul>li {
+    margin: 0 15px;
+    border-bottom: 1px solid #EAEBF1;
+    background-image: url(https://new.capital/static/images/icons/arrow-right-icon.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    list-style: none;
+  }
+
+  .mobile-menu-body ul>li>a {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    padding: 20px 4px;
+    display: block;
+  }
+
+  .mobile-menu-body ul {
+      padding: unset;
+      background: #fff;
+      border-radius: 8px;
+  }
+
+  .mobile-menu-body {
+      margin: 16px;
+  }
+
+  .sidenav {
+      background-color: #e5e5e5;
+  }
+
+  .footer {
+      width: 100%;
+      height: 87px;
+      background-color: #f1f4f5;
+      text-align: center;
+      padding-top: 30px;
+  }
+
+  .footer-links a {
+      text-decoration: none;
+      padding-left: 10px;
+      color: rgb(150, 150, 150);
+      font-size: 13px;
+      transition: 0.5s;
+  }
+
+  .footer-links a:hover {
+      color: #000;
+  }
+

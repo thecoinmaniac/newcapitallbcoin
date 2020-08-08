@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>LBC13</title>
+    <g id="LBC13" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#AE4B84" fill-rule="nonzero" x="6" y="6" width="20" height="20" rx="2"></rect>
+        <rect id="Rectangle" fill="#FFFFFF" x="15" y="9" width="2" height="14"></rect>
+        <rect id="Rectangle" fill="#FFFFFF" transform="translate(16.000000, 13.000000) rotate(-270.000000) translate(-16.000000, -13.000000) " x="15" y="9" width="2" height="8"></rect>
+        <rect id="Rectangle-Copy" fill="#FFFFFF" transform="translate(16.000000, 19.000000) rotate(-270.000000) translate(-16.000000, -19.000000) " x="15" y="15" width="2" height="8"></rect>
+    </g>
+</svg>
