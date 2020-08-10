@@ -82,6 +82,16 @@ section.header {
     display: none;
 }
 
+.leader-single a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+
+.leader-single a:hover {
+    color: rgb(109, 109, 255);
+}
+
 .leaders-section {
     padding-top: 150px;
     padding-bottom: 120px;
